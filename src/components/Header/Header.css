@@ -1,0 +1,15 @@
+.header{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0;
+    background:linear-gradient(rgba(145, 6, 6, 0.7), rgba(0, 0, 0, 0.6)), url(../../images/Capture.PNG);
+    color:#fff;
+    background-position:center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1,h3{
+    font-weight: 600;
+}
+.header span{
+    text-decoration: underline;
+}
