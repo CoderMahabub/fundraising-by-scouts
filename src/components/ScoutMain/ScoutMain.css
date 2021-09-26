@@ -1,11 +1,21 @@
 .scout-main{
     display: grid;
     grid-template-columns: 3fr 1fr;
-
+    background-color: #fff;
 }
 .scouts-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:10px;
+    grid-gap:20px;
     margin: 50px 20px;
 }
+.fund-raised {
+    margin-top:50px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .scout-main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
