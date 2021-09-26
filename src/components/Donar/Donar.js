@@ -1,8 +1,9 @@
 import React from 'react';
 import './Donar.css';
 
+// Donar Component 
 const Donar = (props) => {
-    // console.log(props) 
+    //Destructured
     const { thumbnail, name } = props.donar;
     return (
         <div className="donars">

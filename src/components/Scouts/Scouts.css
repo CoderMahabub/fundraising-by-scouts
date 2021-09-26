@@ -1,3 +1,4 @@
+/* Scouts Styled Here  */
 .scouts{
     background:linear-gradient(rgba(0, 0, 0, 0.1),rgba(49, 51, 206, 0.1));
     border:2px solid white;
@@ -32,5 +33,5 @@
 .scouts button:hover{
     background-color: transparent;
     border: 2px solid black;
-color: black;
+    color: black;
 }

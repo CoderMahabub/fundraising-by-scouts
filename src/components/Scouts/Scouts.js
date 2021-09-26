@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDonate } from '@fortawesome/free-solid-svg-icons';
 
 const Scouts = (props) => {
-    // console.log(props);
-    const donate = <FontAwesomeIcon icon={faDonate} />
-    const { name, email, thumbnail, designation, deonation_amount, district } = props.scout;
+    const donate = <FontAwesomeIcon icon={faDonate} /> // Font Awesome Icon
+    const { name, email, thumbnail, designation, deonation_amount, district } = props.scout; //Destructured
 
     return (
+        // Single Card 
         <div className="scouts">
             <img src={thumbnail} className="card-img-top" alt="Scouts Profile" />
             <div>
