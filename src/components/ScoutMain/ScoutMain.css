@@ -1,0 +1,11 @@
+.scout-main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.scouts-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    margin: 50px 20px;
+}
